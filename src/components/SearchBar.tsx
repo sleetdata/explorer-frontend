@@ -50,7 +50,7 @@ export default function SearchBar() {
         <input
           type="text"
           value={query}
-          onChange={(e) => setQuery(e.target.value.toLowerCase())}
+          onChange={(e) => setQuery(e.target.value)}
           autoCapitalize="none"
           placeholder="Search tx, block, or account"
           className="w-full rounded-lg border border-gray-300 bg-surface px-4 py-2 pr-20 text-sm focus:border-blue-500 focus:outline-none"
